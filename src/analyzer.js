@@ -14,7 +14,7 @@ const analyzer = {
   },
 
   getAverageWordLength: (text) => {    
-    const regex = /\b[\w']+\b/g; //seleccionamos las letras y Ñs, estaba contando más palabras de las que debería
+    const regex = /\b[\w']+\b/g;
     const words = text.match(regex);
     
     if (!words || words.length === 0) {
