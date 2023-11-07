@@ -1,0 +1,72 @@
+textarea[name="user-input"] {
+    resize: none;
+    background-color: #fffbf7;
+    font-size: 15 px;
+    font-family: cursive;
+    text-align: center;
+    padding: 35 px;
+    color: black;
+    border-radius: 10px;
+    border: auto
+}
+h1 {
+    font-family: cursive;
+    color: #b55163;
+    text-align: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#fffbf7;
+}
+ul{
+    margin: 60px;
+    display: inline;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    padding: 20px;
+}
+.balloon{
+margin: 5px;
+padding: 10px;
+background-color: #eccabf;
+color: #b55163;
+border-radius: 10px;
+display: flex;
+font-family: cursive;
+}
+#reset-button{
+    margin-bottom: auto;
+    padding: 10px;
+    background-color: #b55163 ;
+    color: #df8b92;
+    border: 10px;
+    border-radius: 5px;
+    cursor: pointer ;
+    font-family: cursive ;
+    transition: .3s; 
+}
+#reset-button:hover{
+    color: white;
+    }
+button:active{
+    transform: scale(0.9);
+}
+
+footer{
+    font-family: cursive;
+    font-size: smaller;
+    color: #e7ac98;
+    padding: 10px;
+}
+header{
+    font-family: cursive;
+    font-size: smaller;
+    color: #e7ac98;
+    padding: 40px;
+    text-align: center;
+    background-color:#fffbf7
+}
