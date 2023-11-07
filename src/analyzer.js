@@ -12,6 +12,7 @@ const analyzer = {
     const characterCount = text.length;
     return characterCount;
   },
+  
 
   getAverageWordLength: (text) => {    
     const regex = /\b[\w']+\b/g;
